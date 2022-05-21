@@ -1,0 +1,120 @@
+@import "theme/theme_variables"; // <-------- Add your variables into this file. Also add variables to overwrite Bootstrap or UnderStrap variables here
+@import "assets/bootstrap4"; // <-------- Loads Bootstrap4
+@import "understrap/understrap"; // <-------- Loads the UnderStrap defaults. Just a few classes to incorporate BS in WP
+// @import "understrap/woocommerce"; // <-------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
+
+// Optional files - If you dont use the corresponding scripts/fonts comment em out
+// @import "assets/font-awesome"; // <-------- Font Awesome Icon font
+@import "assets/underscores"; // <-------- Underscores media styles
+
+// Any additional imported files //
+@import "theme/theme"; // <-------- That's where you can add your own design. Thats your part!
+@import "theme/contact-form7"; // <-------- Contact Form 7 - Bootstrap 4 support
+@import 'theme/header';
+@import 'theme/footer';
+@import 'theme/help-page';
+@import 'theme/sing-up';
+@import 'theme/home';
+@import 'theme/features';
+@import 'theme/team';
+@import 'theme/blog';
+
+
+
+// font-family: 'Cabin', sans-serif;
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Yeseva One', cursive;
+
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+$light: 300;
+$normal: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+
+:root {
+  --fs15: 12px;
+  --fs18: 15px;
+  --fs24: 20px;
+  --fs43: 33px;
+  --fs68: 55px;
+}
+
+@media (max-width: 1700px) {
+  :root {
+    --fs18: 14px;
+    --fs43: 29px;
+    --fs68: 45px;
+  }
+}
+@media (max-width: 1300px) {
+  :root {
+    --fs18: 14px;
+    --fs68: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --fs15: 13px;
+    --fs43: 30px;
+  }
+}
+
+.container {
+  max-width: 1400px;
+}
+
+.container-fluid{
+  max-width: 1640px;
+}
+
+@media (min-width: 979px) {
+  ul.navbar-nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+.site{
+  padding-top: 100px;
+}
+
+.slick-slide{outline:none}
+
+.form-control, .wpcf7 input[type=text], .wpcf7 input[type=search], .wpcf7 input[type=url], .wpcf7 input[type=tel], .wpcf7 input[type=number], .wpcf7 input[type=range], .wpcf7 input[type=date], .wpcf7 input[type=month], .wpcf7 input[type=week], .wpcf7 input[type=time], .wpcf7 input[type=datetime], .wpcf7 input[type=datetime-local], .wpcf7 input[type=color], .wpcf7 input[type=email], .wpcf7 input[type=file], .wpcf7 input[type=submit], .wpcf7 select, .wpcf7 textarea, .wpcf7 .wpcf7-validation-errors {height:unset}
+
+.wrapper{
+  padding: 0px;
+}
+.container-fluid{
+  width: 1400px;
+}
+.togglerIcon {
+  color: black;
+}
+h1{
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #fff;
+}
+p{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #fff;
+}
+.center{
+  text-align: center;
+}

@@ -1,0 +1,83 @@
+.team{
+    .first-team-wrap{
+        h1{
+            font-family: Poppins;
+            font-size: 56px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.43;
+            letter-spacing: normal;
+            text-align: center;
+            color: #18191a;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+        h5{
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.88;
+            letter-spacing: normal;
+            text-align: center;
+            color: #212b36;
+            margin-top: 30px;
+
+        }
+        p{
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: 1px;
+            text-align: center;
+            color: #858a99;
+            margin-top: 10px;
+        }
+        .main-second-par{
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.88;
+            letter-spacing: normal;
+            text-align: center;
+            color: #888b9f;
+          
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .second-team-wrap{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        h1,h2{
+            font-family: Poppins;
+            font-size: 36px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.58;
+            letter-spacing: normal;
+            color: #313e50;
+          
+        }
+        p{
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.88;
+            letter-spacing: normal;
+            color: #888b9f;
+        }
+    }
+}

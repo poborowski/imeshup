@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="456" viewBox="0 0 1440 456">
+    <defs>
+        <linearGradient id="b" x1="0%" x2="88.881%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#1465D8"/>
+            <stop offset="100%" stop-color="#0B3E85"/>
+        </linearGradient>
+        <path id="a" d="M0 0h1440v456H0z"/>
+        <linearGradient id="c" x1="15.23%" x2="43.475%" y1="80.912%" y2="96.853%">
+            <stop offset="0%" stop-color="#0B3E85"/>
+            <stop offset="100%" stop-color="#0B3E85" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="e" x1="16.976%" x2="45.511%" y1="72.32%" y2="87.904%">
+            <stop offset="0%" stop-color="#0B3E85"/>
+            <stop offset="100%" stop-color="#0B3E85" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="f" x1="-18.214%" x2="33.746%" y1="53.597%" y2="17.59%">
+            <stop offset="0%" stop-color="#0B3E85"/>
+            <stop offset="100%" stop-color="#0B3E85" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="g" x1="19.348%" x2="52.405%" y1="25.183%" y2="0%">
+            <stop offset="0%" stop-color="#0B3E85"/>
+            <stop offset="100%" stop-color="#0B3E85" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="d" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="url(#b)" xlink:href="#a"/>
+        <path fill="url(#c)" d="M212.5-1544l865.5 500V-44L212.5 456-653-44v-1000z" mask="url(#d)"/>
+        <path fill="url(#e)" d="M1403.5-1644l865.5 500v1000l-865.5 500L538-144v-1000z" mask="url(#d)"/>
+        <path fill="url(#f)" d="M1680.5-42L2546 458v1000l-865.5 500L815 1458V458z" mask="url(#d)"/>
+        <path fill="url(#g)" d="M-649.5-42L216 458v1000l-865.5 500-865.5-500V458z" mask="url(#d)"/>
+    </g>
+</svg>

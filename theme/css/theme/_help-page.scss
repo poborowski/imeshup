@@ -1,0 +1,104 @@
+.card{
+    border: 0px ;
+    border-bottom: 1px solid #e7e8eb;
+    button{
+        font-size: 24px;
+        color: #313e50;
+        font-weight: 600;
+        text-decoration: none;
+        width: 100%;
+        text-align: left;
+    }
+    .card-header{
+        background-color: rgba(0, 0, 0, 0.0);
+        border-bottom: 0px;
+        padding:15px 0px;
+        button{
+           padding: 5px 0px;
+        }
+    }
+    img{
+        float: right;
+        margin-top: 15px;
+    }
+    
+    .card-body{
+        margin: 32px 0 40px;
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: normal;
+        color: #888b9f;
+    }
+    .btn-link:hover{
+        text-decoration: none;
+    }
+}
+.help-box{
+    padding-top: 100px;
+    padding-bottom: 160px;
+    max-width: 1200px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    h1{
+        font-family: Poppins;
+        font-size: 56px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: #18191a;
+    }
+    p{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        color: #888b9f; 
+    }
+    h2{
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.58;
+        letter-spacing: normal;
+        color: #313e50;
+    }
+    .desc-box{
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1px;
+        color: #ff7943;
+        text-transform: uppercase;
+    }
+    .help-contact-box{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .help-contact-box p{
+        max-width: 250px;
+    }
+    @media (max-width:768px){
+        h1{
+            font-size: 26px;
+        }
+        h2{
+            font-size: 22px;
+        }
+        .card button{
+            font-size: 22px;
+        }
+        .card .card-body{
+            margin: 0px;
+        }
+    }
+}

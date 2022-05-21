@@ -1,0 +1,81 @@
+.features{
+    section{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        h1{
+            font-family: Poppins;
+            font-size: 36px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.58;
+            letter-spacing: normal;
+            color: #313e50;
+        }
+        p,li{
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.88;
+            letter-spacing: normal;
+            color: #888b9f;
+
+        }
+        li::marker{
+            color: #ff7943; 
+        }
+        p,ul{
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        a{
+            padding: 22px 31px 20px;
+            object-fit: contain;
+            background-color: #fff0e9;
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            text-align: center;
+            color: #ff7943;
+          
+        }
+
+    }
+    .main-features-wrap{
+        h1{
+            font-family: Poppins;
+            font-size: 56px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.43;
+            letter-spacing: normal;
+            text-align: center;
+            color: #18191a;
+        }
+        a{
+            padding: 22px 40px 20px;
+            object-fit: contain;
+            box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+            background-color: #3450f4;  
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            color: #fff;
+            display: block;
+            max-width: 200px;
+            margin: 0 auto;
+        }
+    }
+
+}
